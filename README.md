@@ -11,18 +11,6 @@ So kann man Licht **wie musikalisches Material programmieren**, z.B. im Piano-Ro
 
 ---
 
-# Installation
-
-1. **QLC+ herunterladen und installieren:** [https://www.qlcplus.org/](https://www.qlcplus.org/)
-
-2. ➡️ [MS11-2026.qxw herunterladen](MS11-2026.qxw)
-
-3. in **QLC+ öffnen**.
-
-![3d](img/3d.png)
-
----
-
 # Grundidee
 
 Das Setup ist so gebaut, dass **MIDI-Noten einzelne Lampen oder Farbkanäle steuern**.
@@ -120,31 +108,15 @@ Die **Velocity der Note bestimmt die Helligkeit**.
 
 ---
 
-# Beispiel
+# Installation
 
-Im Repository findet ihr auch ein Beispielbild, das zeigt, wie ein MIDI-Clip im **Ableton Piano Roll** aussehen kann.
+1. **QLC+ herunterladen und installieren:** [https://www.qlcplus.org/](https://www.qlcplus.org/)
 
-So lassen sich z.B.:
+2. ➡️ [MS11-2026.qxw herunterladen](MS11-2026.qxw)
 
-* Lichtwechsel
-* Farbverläufe
-* rhythmische Lichtimpulse
-* dynamische Entwicklungen
+3. in **QLC+ öffnen**.
 
-direkt im **Sequencer programmieren**.
-
----
-
-# Tipps zum Experimentieren
-
-Ein paar Ideen zum Ausprobieren:
-
-* Akkorde → mehrere Lampen gleichzeitig
-* Crescendo → Velocity langsam erhöhen
-* Rhythmische Patterns → pulsierendes Licht
-* Unterschiedliche Farben kombinieren
-
-Licht kann so **Teil der musikalischen Komposition werden**.
+![3d](img/3d.png)
 
 ---
 
