@@ -21,7 +21,7 @@ Download hier:
 
 2. Dieses Repository herunterladen oder klonen.
 
-3. Die Datei [MS11-2026.qxw](MS11-2026.qxw)
+3. Die Datei [MS11-2026.qxw](https://raw.githubusercontent.com/AdrianArtacho/DMX-MS11/refs/heads/main/MS11-2026.qxw)
 
 ```text
 MS11-2026.qxw
