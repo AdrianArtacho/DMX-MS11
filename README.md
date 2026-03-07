@@ -17,8 +17,7 @@ So kann man Licht **wie musikalisches Material programmieren**, z.B. im Piano-Ro
 
 2. ➡️ [MS11-2026.qxw herunterladen](MS11-2026.qxw)
 
-
-in **QLC+ öffnen**.
+3. in **QLC+ öffnen**.
 
 ![3d](img/3d.png)
 
