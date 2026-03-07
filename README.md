@@ -16,8 +16,8 @@ So kann man Licht **wie musikalisches Material programmieren**, z.B. im Piano-Ro
 1. **QLC+ herunterladen und installieren**
 
  > Download hier:
-
->  [https://www.qlcplus.org/](https://www.qlcplus.org/)
+ >
+ > [https://www.qlcplus.org/](https://www.qlcplus.org/)
 
 
 2. ➡️ [MS11-2026.qxw herunterladen](MS11-2026.qxw)
