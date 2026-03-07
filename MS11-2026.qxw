@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FIXANDFUNC">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>5.1.0</Version>
+  <Author>Adrian Artacho</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <BeatGenerator BeatType="Internal" BPM="120"/>
+   <Universe Name="Universe 1" ID="0">
+    <Input Plugin="MIDI" UID="IAC Driver" Line="0">
+     <PluginParameters mode="Note Velocity"/>
+    </Input>
+    <Output Plugin="DMX USB" UID="None" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>0</ID>
+   <Name>Profiler1 (Ecke links)</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>1</ID>
+   <Name>Profiler2 (links)</Name>
+   <Universe>0</Universe>
+   <Address>1</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>2</ID>
+   <Name>Profiler3 (Mitte links)</Name>
+   <Universe>0</Universe>
+   <Address>2</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>3</ID>
+   <Name>Profiler4 (Mitte rechts)</Name>
+   <Universe>0</Universe>
+   <Address>3</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>4</ID>
+   <Name>Profiler5 (Rechts)</Name>
+   <Universe>0</Universe>
+   <Address>4</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>5</ID>
+   <Name>Profiler6 (Ecke rechts)</Name>
+   <Universe>0</Universe>
+   <Address>5</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>6</ID>
+   <Name>LED Back 1</Name>
+   <Universe>0</Universe>
+   <Address>6</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>7</ID>
+   <Name>LED Back 2</Name>
+   <Universe>0</Universe>
+   <Address>9</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>8</ID>
+   <Name>LED Bühne</Name>
+   <Universe>0</Universe>
+   <Address>12</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGBW</Model>
+   <Mode>RGBW</Mode>
+   <ID>9</ID>
+   <Name>Generic RGBW [10]</Name>
+   <Universe>0</Universe>
+   <Address>15</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>10</ID>
+   <Name>Flash rechts</Name>
+   <Universe>0</Universe>
+   <Address>25</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>11</ID>
+   <Name>Flash Links [12]</Name>
+   <Universe>0</Universe>
+   <Address>27</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Arial,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0" POV="1"/>
+   <StageItem>0</StageItem>
+   <FxItem ID="0" XPos="201.516" YPos="2213.95" ZPos="1865.84"/>
+   <FxItem ID="1" XPos="648.06" YPos="2568.07" ZPos="3188.59"/>
+   <FxItem ID="2" XPos="1865.83" YPos="2642.25" ZPos="3814.17"/>
+   <FxItem ID="3" XPos="2873.88" YPos="2607.86" ZPos="3838.29"/>
+   <FxItem ID="4" XPos="4043.01" YPos="2292.91" ZPos="3180.25"/>
+   <FxItem ID="5" XPos="4563.14" YPos="2621.34" ZPos="1819.67"/>
+   <FxItem ID="6" XPos="1247.38" YPos="2454.21" ZPos="519.367"/>
+   <FxItem ID="7" XPos="3366.55" YPos="2374.42" ZPos="511.648"/>
+   <FxItem ID="8" XPos="2372.06" YPos="2747.5" ZPos="1853.38"/>
+   <FxItem ID="9" XPos="2380.44" YPos="2417.41" ZPos="504.336"/>
+   <FxItem ID="10" XPos="1509.67" YPos="3033.95" ZPos="4493.81"/>
+   <FxItem ID="11" XPos="3273.86" YPos="3042.16" ZPos="4552.24"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="MidiNotes" ID="0">
+   <Appearance>
+    <ForegroundColor>4278190080</ForegroundColor>
+    <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+   </Appearance>
+   <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
+   <AllowResize>False</AllowResize>
+   <ShowHeader>False</ShowHeader>
+   <ShowEnableButton>True</ShowEnableButton>
+   <Collapsed>False</Collapsed>
+   <Disabled>False</Disabled>
+   <Enable>
+    <Input ID="2" Universe="0" Channel="23833"/>
+    <Input ID="2" Universe="0" Channel="23833"/>
+   </Enable>
+   <Slider Caption="Profiler2" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="301" Y="30" Width="75" Height="331"/>
+    <Appearance>
+     <BackgroundColor>4282664004</BackgroundColor>
+    </Appearance>
+    <Input ID="0" Universe="0" Channel="130"/>
+    <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="1">0</Channel>
+    </Level>
+   </Slider>
+   <Slider Caption="Profiler1" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="210" Y="30" Width="75" Height="331"/>
+    <Appearance>
+     <BackgroundColor>4282664004</BackgroundColor>
+    </Appearance>
+    <Input ID="0" Universe="0" Channel="129"/>
+    <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="0">0</Channel>
+    </Level>
+   </Slider>
+   <Slider Caption="Profiler6" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="662" Y="30" Width="75" Height="331"/>
+    <Appearance>
+     <BackgroundColor>4282664004</BackgroundColor>
+    </Appearance>
+    <Input ID="0" Universe="0" Channel="134"/>
+    <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="5">0</Channel>
+    </Level>
+   </Slider>
+   <Slider Caption="Profiler4" ID="3" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="481" Y="30" Width="75" Height="331"/>
+    <Appearance>
+     <BackgroundColor>4282664004</BackgroundColor>
+    </Appearance>
+    <Input ID="0" Universe="0" Channel="132"/>
+    <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="3">0</Channel>
+    </Level>
+   </Slider>
+   <Slider Caption="SpotRight" ID="22" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="948" Y="30" Width="105" Height="331"/>
+    <Appearance>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294967295</BackgroundColor>
+    </Appearance>
+    <Input ID="0" Universe="0" Channel="145"/>
+    <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="10">0</Channel>
+    </Level>
+   </Slider>
+   <Frame Caption="Frame 7" ID="6">
+    <WindowState Visible="True" X="210" Y="376" Width="271" Height="331"/>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="Par2B" ID="9" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="165" Y="0" Width="90" Height="316"/>
+     <Appearance>
+      <BackgroundColor>4281545727</BackgroundColor>
+     </Appearance>
+     <Input ID="0" Universe="0" Channel="137"/>
+     <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="6">2</Channel>
+     </Level>
+    </Slider>
+    <Slider Caption="Par1G" ID="8" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="75" Y="0" Width="90" Height="316"/>
+     <Appearance>
+      <BackgroundColor>4278229504</BackgroundColor>
+     </Appearance>
+     <Input ID="0" Universe="0" Channel="136"/>
+     <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="6">1</Channel>
+     </Level>
+    </Slider>
+    <Slider Caption="Par1R" ID="7" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="0" Y="0" Width="75" Height="316"/>
+     <Appearance>
+      <BackgroundColor>4294927974</BackgroundColor>
+     </Appearance>
+     <Input ID="0" Universe="0" Channel="135"/>
+     <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="6">0</Channel>
+     </Level>
+    </Slider>
+   </Frame>
+   <Slider Caption="SpotLeft" ID="21" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="828" Y="30" Width="105" Height="331"/>
+    <Appearance>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294967295</BackgroundColor>
+    </Appearance>
+    <Input ID="0" Universe="0" Channel="144"/>
+    <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="11">0</Channel>
+    </Level>
+   </Slider>
+   <Frame Caption="Bars" ID="23">
+    <WindowState Visible="True" X="1189" Y="30" Width="310" Height="510"/>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="BarG" ID="25" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="80" Y="5" Width="75" Height="500"/>
+     <Appearance>
+      <ForegroundColor>4278218240</ForegroundColor>
+      <BackgroundColor>4282664004</BackgroundColor>
+     </Appearance>
+     <Input ID="0" Universe="0" Channel="147"/>
+     <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="9">1</Channel>
+     </Level>
+    </Slider>
+    <Slider Caption="BarB" ID="26" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="155" Y="5" Width="75" Height="500"/>
+     <Appearance>
+      <ForegroundColor>4278190335</ForegroundColor>
+      <BackgroundColor>4282664004</BackgroundColor>
+     </Appearance>
+     <Input ID="0" Universe="0" Channel="148"/>
+     <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="9">2</Channel>
+     </Level>
+    </Slider>
+    <Slider Caption="BarE" ID="27" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="230" Y="5" Width="75" Height="500"/>
+     <Appearance>
+      <ForegroundColor>4294946099</ForegroundColor>
+      <BackgroundColor>4282664004</BackgroundColor>
+     </Appearance>
+     <Input ID="0" Universe="0" Channel="149"/>
+     <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="9">3</Channel>
+     </Level>
+    </Slider>
+    <Slider Caption="BarR" ID="24" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="5" Y="5" Width="75" Height="500"/>
+     <Appearance>
+      <ForegroundColor>4294941081</ForegroundColor>
+      <BackgroundColor>4282664004</BackgroundColor>
+     </Appearance>
+     <Input ID="0" Universe="0" Channel="146"/>
+     <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="9">0</Channel>
+     </Level>
+    </Slider>
+   </Frame>
+   <Slider Caption="Profiler5" ID="4" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="572" Y="30" Width="75" Height="331"/>
+    <Appearance>
+     <BackgroundColor>4282664004</BackgroundColor>
+    </Appearance>
+    <Input ID="0" Universe="0" Channel="133"/>
+    <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="4">0</Channel>
+    </Level>
+   </Slider>
+   <Frame Caption="Frame 14" ID="13">
+    <WindowState Visible="True" X="512" Y="376" Width="271" Height="331"/>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="Par2B" ID="16" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="180" Y="0" Width="90" Height="316"/>
+     <Appearance>
+      <BackgroundColor>4281545727</BackgroundColor>
+     </Appearance>
+     <Input ID="0" Universe="0" Channel="140"/>
+     <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="7">2</Channel>
+     </Level>
+    </Slider>
+    <Slider Caption="Par2R" ID="14" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="0" Y="0" Width="90" Height="316"/>
+     <Appearance>
+      <BackgroundColor>4294927974</BackgroundColor>
+     </Appearance>
+     <Input ID="0" Universe="0" Channel="138"/>
+     <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="7">0</Channel>
+     </Level>
+    </Slider>
+    <Slider Caption="Par2G" ID="15" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="90" Y="0" Width="90" Height="316"/>
+     <Appearance>
+      <BackgroundColor>4278229504</BackgroundColor>
+     </Appearance>
+     <Input ID="0" Universe="0" Channel="139"/>
+     <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="7">1</Channel>
+     </Level>
+    </Slider>
+   </Frame>
+   <Slider Caption="Profiler3" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="391" Y="30" Width="75" Height="331"/>
+    <Appearance>
+     <BackgroundColor>4282664004</BackgroundColor>
+    </Appearance>
+    <Input ID="0" Universe="0" Channel="131"/>
+    <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="2">0</Channel>
+    </Level>
+   </Slider>
+   <Frame Caption="Frame 18" ID="17">
+    <WindowState Visible="True" X="828" Y="376" Width="240" Height="331"/>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="ParStageR" ID="18" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="0" Y="0" Width="75" Height="316"/>
+     <Appearance>
+      <BackgroundColor>4294927974</BackgroundColor>
+     </Appearance>
+     <Input ID="0" Universe="0" Channel="141"/>
+     <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="8">0</Channel>
+     </Level>
+    </Slider>
+    <Slider Caption="ParStageG" ID="19" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="75" Y="0" Width="75" Height="316"/>
+     <Appearance>
+      <BackgroundColor>4278229504</BackgroundColor>
+     </Appearance>
+     <Input ID="0" Universe="0" Channel="142"/>
+     <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="8">1</Channel>
+     </Level>
+    </Slider>
+    <Slider Caption="ParStageB" ID="20" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="150" Y="0" Width="75" Height="316"/>
+     <Appearance>
+      <BackgroundColor>4281545727</BackgroundColor>
+     </Appearance>
+     <Input ID="0" Universe="0" Channel="143"/>
+     <SliderMode ValueDisplayStyle="Exact" Monitor="true">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="8">2</Channel>
+     </Level>
+    </Slider>
+   </Frame>
+  </Frame>
+  <Frame Caption="Page 2" ID="1">
+   <Appearance>
+    <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+   </Appearance>
+   <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
+   <AllowResize>False</AllowResize>
+   <ShowHeader>False</ShowHeader>
+   <ShowEnableButton>True</ShowEnableButton>
+   <Collapsed>False</Collapsed>
+   <Disabled>False</Disabled>
+  </Frame>
+  <Frame Caption="Page 3" ID="2">
+   <Appearance>
+    <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+   </Appearance>
+   <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
+   <AllowResize>False</AllowResize>
+   <ShowHeader>False</ShowHeader>
+   <ShowEnableButton>True</ShowEnableButton>
+   <Collapsed>False</Collapsed>
+   <Disabled>False</Disabled>
+  </Frame>
+  <Frame Caption="Page 4" ID="3">
+   <Appearance>
+    <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+   </Appearance>
+   <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
+   <AllowResize>False</AllowResize>
+   <ShowHeader>False</ShowHeader>
+   <ShowEnableButton>True</ShowEnableButton>
+   <Collapsed>False</Collapsed>
+   <Disabled>False</Disabled>
+  </Frame>
+ </VirtualConsole>
+</Workspace>
