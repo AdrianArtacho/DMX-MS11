@@ -19,34 +19,18 @@ Damit können **Lichteffekte direkt über MIDI-Clips** (z.B. in Ableton Live) ge
 | 4    | Profiler 4                |
 | 5    | Profiler 5                |
 | 6    | Profiler 6 (rechts außen) |
-
-### LED-Bars – Block 1
-
-| Note | Farbe |
 | ---- | ----- |
-| 7    | Rot   |
-| 8    | Grün  |
-| 9    | Blau  |
-
-### LED-Bars – Block 2
-
-| Note | Farbe |
+| 7    | LED-Bars – Block 1 - Rot   |
+| 8    | LED-Bars – Block 1 - Grün  |
+| 9    | LED-Bars – Block 1 - Blau  |
 | ---- | ----- |
-| 10   | Rot   |
-| 11   | Grün  |
-| 12   | Blau  |
-
-### Hauptbühnen-Farblicht
-
-| Note | Farbe |
+| 10   | LED-Bars – Block 1 - Rot   |
+| 11   | LED-Bars – Block 1 - Grün  |
+| 12   | LED-Bars – Block 1 - Blau  |
 | ---- | ----- |
-| 13   | Rot   |
-| 14   | Grün  |
-| 15   | Blau  |
-
-### Spots
-
-| Note | Funktion    |
+| 13   | Hauptbühnen-Farblicht - Rot   |
+| 14   | Hauptbühnen-Farblicht - Grün  |
+| 15   | Hauptbühnen-Farblicht - Blau  |
 | ---- | ----------- |
 | 16   | Spot links  |
 | 17   | Spot rechts |
