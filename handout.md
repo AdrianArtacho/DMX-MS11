@@ -5,7 +5,6 @@ Damit können **Lichteffekte direkt über MIDI-Clips** (z.B. in Ableton Live) ge
 
 ![Piano Roll Beispiel](img/DMX-MS11.png)
 
-<img src="img/qr-code.png" title="" alt="QR Code" width="76">
 
 ---
 
@@ -34,3 +33,6 @@ Damit können **Lichteffekte direkt über MIDI-Clips** (z.B. in Ableton Live) ge
 | ---- | ----------- |
 | 16   | Spot links  |
 | 17   | Spot rechts |
+
+<img src="img/qr-code.png" title="" alt="QR Code" width="76">
+
