@@ -1,7 +1,7 @@
 # MIDI-Lichtsteuerung für den Musiksaal (QLC+ Setup)
 
 Dieses Repository enthält ein **einfaches Lichtsteuerungs-Setup für den Musiksaal der Musikschule Simmering**, basierend auf der freien Software **QLC+**.
-Damit können Lichteffekte **direkt über MIDI-Clips (z.B. in Ableton Live)** gesteuert werden.
+Damit können Lichteffekte **direkt über MIDI-Clips (z.B. in Ableton Live)** gesteuert werden [handout](https://docs.google.com/document/d/1p20pckPzN3TO5_6TUlXeqU5Byig2t5NidBYAPuLpnUE/edit?tab=t.0#heading=h.9eum9l8padxd).
 
 ![qr](img/qr-code.png)
 
